@@ -1,0 +1,44 @@
+body{
+    font-family: "Roboto",Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #85A5D4;
+}
+.container{
+    text-align: center;
+    display: flex;
+    box-shadow: 5px 5px 4px rgba(0,0, 0, 0.2);
+    list-style-type: none;
+    margin: 0 auto;
+    margin-top: 150px;
+    width: 900px;
+    border-radius: 7px;
+    padding: 20px 25px;
+    background-color: #fff;
+}
+.container_items{
+    width: 300px;
+    padding: 15px 20px;
+}
+.container_items:hover{
+    background-color: rgb(243, 237, 237);
+    border-radius: 7px;
+}
+.container_items h3{
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.container_items a{
+    color: #5778D9;
+    text-decoration: none;
+}
+.container_items p{
+   color: #C0C8CC;
+}
+.price{
+    font-weight: 600;
+    font-size: 20px;
+}
+.month{
+    font-size: 16px;
+}
